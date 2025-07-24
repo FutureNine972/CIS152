@@ -1,0 +1,7 @@
+footer {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    padding: 10px;
+    border: 1px dashed darkblue;
+}

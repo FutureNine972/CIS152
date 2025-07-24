@@ -1,0 +1,6 @@
+body {
+    background-image: url('image.png');
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
