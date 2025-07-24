@@ -1,0 +1,42 @@
+body{
+  background-image: url(img/7-1bg.png);
+  height: 2875px;
+  width: 1600px;
+  background-repeat: no-repeat;
+  background-position: 200px 0;
+  
+}
+img{
+  display:inline-block;
+  vertical-align: top;
+}
+
+#ball{
+  margin-left: 215px;
+  margin-top: 12px;
+}
+
+#turnip{
+  margin-left: 489px;
+  margin-top: 180px;
+}
+
+#grass{
+  margin-left: 47px;
+  margin-top: 180px;
+}
+
+#L{
+  margin-left: 292px;
+  margin-top: 1330px;
+}
+
+#T{
+  margin-left: 96px;
+  margin-top: 1431px;
+}
+
+#I{
+  margin-left: 295px;
+  margin-top: 1330px;
+}
