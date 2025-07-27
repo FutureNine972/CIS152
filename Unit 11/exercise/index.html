@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 11 Exercise - Home</title>
+  <style>
+    body {
+      width: 600px;
+      margin: auto;
+      background-color: lavender;
+    }
+
+    fieldset {
+      border: 1px solid #999;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    legend {
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    select {
+      width: 100%;
+    }
+
+    input {
+        margin-bottom: 1%;
+    }
+
+    .form-buttons {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Video Game Preference</h1>
+
+  <form>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email">
+
+    <fieldset>
+      <legend>Select Your Favorite Genre(s):</legend>
+      <label><input type="checkbox" name="genre" value="Action"> Action</label>
+      <label><input type="checkbox" name="genre" value="RPG"> RPG</label>
+      <label><input type="checkbox" name="genre" value="Strategy"> Strategy</label>
+      <label><input type="checkbox" name="genre" value="Simulation"> Simulation</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>How often do you play video games?</legend>
+      <label><input type="radio" name="frequency" value="Often"> Often</label>
+      <label><input type="radio" name="frequency" value="Sometimes"> Sometimes</label>
+      <label><input type="radio" name="frequency" value="Rarely"> Rarely</label>
+      <label><input type="radio" name="frequency" value="Never"> Never</label>
+    </fieldset>
+
+    <label for="platform">Select the platform you use most:</label>
+    <select id="platform" name="platform" size="3">
+      <option value="PC">PC</option>
+      <option value="Console">Console</option>
+      <option value="Mobile">Mobile</option>
+      <option value="VR">VR</option>
+    </select>
+
+    <label for="role">What role do video games play in your life?</label>
+    <textarea id="role" name="role" rows="3" cols="60"></textarea>
+
+    <div class="form-buttons">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+
+  </form>
+
+</body>
+</html>
