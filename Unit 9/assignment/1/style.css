@@ -1,0 +1,29 @@
+#fallacies{
+  margin-left:20px;
+}
+
+h3 {
+  text-decoration:underline;
+}
+
+p {
+  border-radius:15px;
+  background-color:#EEE;
+  padding: 15px;
+}
+
+#contents {
+  border: 2px solid #837f0f;
+  background-color: #d7f209;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#contents ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#contents li {
+  margin-bottom: 5px;
+}
